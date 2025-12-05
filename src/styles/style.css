@@ -1,0 +1,105 @@
+/* Базовые настройки документа */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #2a2626;
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+/* Шрифты (подключите через @import или <link> в HTML) */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Neucha&display=swap');
+
+h1, h2, h3 {
+    font-family: 'Neucha', cursive;
+    line-height: 1.2em;
+    margin-bottom: 1rem;
+    color: #2a2626;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+/* Настройки секций */
+section {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 100px 0;
+    width: 100%;
+}
+
+/* Палитра цветов (переменные для удобства) */
+:root {
+    --white: #fff;
+    --semi-white: #d7ccc0;
+    --light: #f5f4f0;
+    --primary: #fe8a02;
+    --primary-dark: #42413c;
+    --dark: #2a2626;
+    --semi-dark: #908d8b;
+    --brown: #b09a81;
+    --blue: #1085c5;
+}
+
+/* Примеры использования цветов */
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-light {
+    background-color: var(--light);
+}
+
+.bg-primary {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.bg-dark {
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.text-primary {
+    color: var(--primary);
+}
+
+.text-blue {
+    color: var(--blue);
+}
+
+/* Дополнительные универсальные классы */
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-large {
+    margin-top: 100px;
+}
+
+.mb-large {
+    margin-bottom: 100px;
+}
